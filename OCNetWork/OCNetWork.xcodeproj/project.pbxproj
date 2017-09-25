@@ -13,6 +13,7 @@
 		4543C1101F77BC7200C8307B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4543C10E1F77BC7200C8307B /* Main.storyboard */; };
 		4543C1121F77BC7200C8307B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4543C1111F77BC7200C8307B /* Assets.xcassets */; };
 		4543C1151F77BC7200C8307B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4543C1131F77BC7200C8307B /* LaunchScreen.storyboard */; };
+		4549BEE51F795181008D5635 /* OCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEE41F795181008D5635 /* OCTask.m */; };
 		8F97B04A2876EE5C25719E71 /* libPods-OCNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87569C65A4A03663EBCC2787 /* libPods-OCNetWork.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		4549BEE01F79404F008D5635 /* OCNetworkTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNetworkTask.m; sourceTree = "<group>"; };
 		4549BEE11F79404F008D5635 /* OCRequestSerVice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRequestSerVice.h; sourceTree = "<group>"; };
 		4549BEE21F79404F008D5635 /* OCRequestSerVice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRequestSerVice.m; sourceTree = "<group>"; };
+		4549BEE31F795181008D5635 /* OCTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTask.h; sourceTree = "<group>"; };
+		4549BEE41F795181008D5635 /* OCTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTask.m; sourceTree = "<group>"; };
 		6BB9B8DE97CBD83586BB7777 /* Pods-OCNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCNetWork/Pods-OCNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		7FE8271D7E5DAFDAB3341CCD /* Pods-OCNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCNetWork/Pods-OCNetWork.release.xcconfig"; sourceTree = "<group>"; };
 		87569C65A4A03663EBCC2787 /* libPods-OCNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +83,8 @@
 				4543C1091F77BC7200C8307B /* AppDelegate.m */,
 				4543C10B1F77BC7200C8307B /* ViewController.h */,
 				4543C10C1F77BC7200C8307B /* ViewController.m */,
+				4549BEE31F795181008D5635 /* OCTask.h */,
+				4549BEE41F795181008D5635 /* OCTask.m */,
 				4543C10E1F77BC7200C8307B /* Main.storyboard */,
 				4543C1111F77BC7200C8307B /* Assets.xcassets */,
 				4543C1131F77BC7200C8307B /* LaunchScreen.storyboard */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4549BEE51F795181008D5635 /* OCTask.m in Sources */,
 				4543C10D1F77BC7200C8307B /* ViewController.m in Sources */,
 				4543C10A1F77BC7200C8307B /* AppDelegate.m in Sources */,
 				4543C1071F77BC7200C8307B /* main.m in Sources */,

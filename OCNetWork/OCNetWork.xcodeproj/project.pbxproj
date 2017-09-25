@@ -27,6 +27,16 @@
 		4543C1111F77BC7200C8307B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4543C1141F77BC7200C8307B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4543C1161F77BC7200C8307B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4549BED91F79404F008D5635 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		4549BEDA1F79404F008D5635 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		4549BEDB1F79404F008D5635 /* OCFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCFileManager.h; sourceTree = "<group>"; };
+		4549BEDC1F79404F008D5635 /* OCFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCFileManager.m; sourceTree = "<group>"; };
+		4549BEDD1F79404F008D5635 /* OCHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCHttpRequest.h; sourceTree = "<group>"; };
+		4549BEDE1F79404F008D5635 /* OCHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCHttpRequest.m; sourceTree = "<group>"; };
+		4549BEDF1F79404F008D5635 /* OCNetworkTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCNetworkTask.h; sourceTree = "<group>"; };
+		4549BEE01F79404F008D5635 /* OCNetworkTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNetworkTask.m; sourceTree = "<group>"; };
+		4549BEE11F79404F008D5635 /* OCRequestSerVice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRequestSerVice.h; sourceTree = "<group>"; };
+		4549BEE21F79404F008D5635 /* OCRequestSerVice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCRequestSerVice.m; sourceTree = "<group>"; };
 		6BB9B8DE97CBD83586BB7777 /* Pods-OCNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCNetWork/Pods-OCNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		7FE8271D7E5DAFDAB3341CCD /* Pods-OCNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCNetWork/Pods-OCNetWork.release.xcconfig"; sourceTree = "<group>"; };
 		87569C65A4A03663EBCC2787 /* libPods-OCNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +75,7 @@
 		4543C1041F77BC7200C8307B /* OCNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				4549BED81F79404F008D5635 /* OCNetWork */,
 				4543C1081F77BC7200C8307B /* AppDelegate.h */,
 				4543C1091F77BC7200C8307B /* AppDelegate.m */,
 				4543C10B1F77BC7200C8307B /* ViewController.h */,
@@ -84,6 +95,23 @@
 				4543C1061F77BC7200C8307B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4549BED81F79404F008D5635 /* OCNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				4549BED91F79404F008D5635 /* NSString+Extension.h */,
+				4549BEDA1F79404F008D5635 /* NSString+Extension.m */,
+				4549BEDB1F79404F008D5635 /* OCFileManager.h */,
+				4549BEDC1F79404F008D5635 /* OCFileManager.m */,
+				4549BEDD1F79404F008D5635 /* OCHttpRequest.h */,
+				4549BEDE1F79404F008D5635 /* OCHttpRequest.m */,
+				4549BEDF1F79404F008D5635 /* OCNetworkTask.h */,
+				4549BEE01F79404F008D5635 /* OCNetworkTask.m */,
+				4549BEE11F79404F008D5635 /* OCRequestSerVice.h */,
+				4549BEE21F79404F008D5635 /* OCRequestSerVice.m */,
+			);
+			path = OCNetWork;
 			sourceTree = "<group>";
 		};
 		DE296806061CDC22CA408069 /* Frameworks */ = {
@@ -389,6 +417,7 @@
 				4543C11B1F77BC7200C8307B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

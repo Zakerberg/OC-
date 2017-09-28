@@ -14,6 +14,11 @@
 		4543C1121F77BC7200C8307B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4543C1111F77BC7200C8307B /* Assets.xcassets */; };
 		4543C1151F77BC7200C8307B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4543C1131F77BC7200C8307B /* LaunchScreen.storyboard */; };
 		4549BEE51F795181008D5635 /* OCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEE41F795181008D5635 /* OCTask.m */; };
+		455B6BDE1F7D39A800E25620 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEDA1F79404F008D5635 /* NSString+Extension.m */; };
+		455B6BDF1F7D39A800E25620 /* OCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEDC1F79404F008D5635 /* OCFileManager.m */; };
+		455B6BE01F7D39A800E25620 /* OCHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEDE1F79404F008D5635 /* OCHttpRequest.m */; };
+		455B6BE11F7D39A800E25620 /* OCNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEE01F79404F008D5635 /* OCNetworkTask.m */; };
+		455B6BE21F7D39A800E25620 /* OCRequestSerVice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4549BEE21F79404F008D5635 /* OCRequestSerVice.m */; };
 		8F97B04A2876EE5C25719E71 /* libPods-OCNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87569C65A4A03663EBCC2787 /* libPods-OCNetWork.a */; };
 /* End PBXBuildFile section */
 
@@ -259,6 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455B6BDE1F7D39A800E25620 /* NSString+Extension.m in Sources */,
+				455B6BDF1F7D39A800E25620 /* OCFileManager.m in Sources */,
+				455B6BE01F7D39A800E25620 /* OCHttpRequest.m in Sources */,
+				455B6BE11F7D39A800E25620 /* OCNetworkTask.m in Sources */,
+				455B6BE21F7D39A800E25620 /* OCRequestSerVice.m in Sources */,
 				4549BEE51F795181008D5635 /* OCTask.m in Sources */,
 				4543C10D1F77BC7200C8307B /* ViewController.m in Sources */,
 				4543C10A1F77BC7200C8307B /* AppDelegate.m in Sources */,

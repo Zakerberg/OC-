@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OCTask.h"
 
 @interface ViewController ()
 
@@ -22,10 +23,18 @@
 
 -(void)fetchData{
     
+    //以下是示例请求
+    NSDictionary *param = @{
+                            @"uid" : @"UID",
+                            @"sign_token" : @"SIGN_TOKEN",
+                            };
     
     
-    
-    
+    [OCTask getHomeIndexMod:param completion:^(id result, NSError *error) {
+       
+        NSLog(@"%@",result);
+        
+    }];
     
 }
 
